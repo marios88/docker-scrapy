@@ -15,6 +15,7 @@ RUN apk -U add \
     && rm -rf /var/cache/apk/* \
     && pip install --upgrade pip \
     && pip install Scrapy
+    && pip install loginform
 
 WORKDIR /runtime/app
 
